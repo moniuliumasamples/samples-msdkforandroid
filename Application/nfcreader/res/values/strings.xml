@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NFCReader</string>
+    <string name="title_home">TAG</string>
+    <string name="title_dashboard">CARD INFO</string>
+    <string name="title_notifications">Write</string>
+    <string name="write_notifications">Read&amp;Write</string>
+    <string name="nfc_done">DONE</string>
+    <string name="info">Waiting for card。</string>
+    <string name="intro_text_read">Ready to read content and view results.</string>
+    <string name="intro_text_read_usage">Reading will begin when you tap an NFC compatible item with the back of your device.</string>
+</resources>

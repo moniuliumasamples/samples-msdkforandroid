@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="6dip"
+    android:layout_marginRight="6dip"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/poweron"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/poweron"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/poweroff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/poweroff"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/random"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/random"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/cmd_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/send"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:textSize="14sp" />
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/debug"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="6dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:text="@string/send_title"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/cmd_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:singleLine="true"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:text="@string/recv_title"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/rept_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="6dip"
+            android:layout_marginTop="6dip"
+            android:layout_weight="1"
+            android:editable="false"
+            android:gravity="top"
+            android:isScrollContainer="true"
+            android:scrollbarStyle="insideOverlay"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

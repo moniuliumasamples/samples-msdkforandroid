@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin" >
+
+    <ImageView
+        android:id="@+id/imgBattery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="Battery Level"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgBattery"
+        android:layout_marginTop="8dp"
+        android:background="#000"
+        android:gravity="center"
+        android:text="@string/txt_battery_spec"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/txtBatterySpec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt1"
+        android:gravity="center"
+        android:text="text" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtBatterySpec"
+        android:layout_marginTop="8dp"
+        android:background="#000"
+        android:gravity="center"
+        android:text="@string/txt_battery_other"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/txtBatteryOther"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt2"
+        android:gravity="center"
+        android:text="text" />
+
+</RelativeLayout>

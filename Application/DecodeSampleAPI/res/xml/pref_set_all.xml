@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceCategory xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <CheckBoxPreference
+        android:key="@string/key_all_symbologies"
+        android:title="@string/title_all_symbologies"
+        android:defaultValue="false" />
+    
+    <Preference
+        android:key="@string/key_manager_defaults"
+        android:title="@string/title_manager_defaults" />
+    
+    <Preference
+        android:key="@string/key_barcode_defaults"
+        android:title="@string/title_barcode_defaults" />
+    
+    <Preference 
+        android:key="@string/key_commit"
+        android:title="@string/title_commit" >
+    </Preference>
+
+</PreferenceCategory>

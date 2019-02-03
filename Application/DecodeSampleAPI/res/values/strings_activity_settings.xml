@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_symbology">Enable Symbologies</string>
+    <string name="pref_header_set_all">Set all to...</string>
+    <string name="title_all_symbologies">Enable all Symbologies</string>
+    <string name="title_manager_defaults">Set BarcodeManager defaults</string>
+    <string name="title_barcode_defaults">Store BarcodeDefaults</string>
+    <string name="title_commit">commit</string>
+    <string name="key_all_symbologies">all_symbologies</string>
+    <string name="key_manager_defaults">manager_defaults</string>
+    <string name="key_barcode_defaults">barcode_defaults</string>
+    <string name="key_commit">commit</string>
+
+</resources>

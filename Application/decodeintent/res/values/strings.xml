@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DecodeIntent</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">decoding by intents!</string>
+    <string name="title_activity_intent_start">IntentStartActivity</string>
+    <string name="txt_intent_list">Click below to send an intent of that type.  If an intent has already been sent to start reading, then any item will only stop barcode reading.</string>
+
+</resources>

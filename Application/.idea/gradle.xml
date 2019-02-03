@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/DecodeListener" />
+            <option value="$PROJECT_DIR$/DecodeSampleAPI" />
+            <option value="$PROJECT_DIR$/Fingerprint" />
+            <option value="$PROJECT_DIR$/Sdk-release" />
+            <option value="$PROJECT_DIR$/barcodeweb" />
+            <option value="$PROJECT_DIR$/decodeintent" />
+            <option value="$PROJECT_DIR$/lednotification" />
+            <option value="$PROJECT_DIR$/nfcreader" />
+            <option value="$PROJECT_DIR$/psamreader" />
+            <option value="$PROJECT_DIR$/standardapi" />
+            <option value="$PROJECT_DIR$/uhfreader" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

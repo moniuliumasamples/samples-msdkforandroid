@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_service"
+        android:orderInCategory="99"
+        android:title="Scan in service" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings" />
+    <item
+        android:id="@+id/action_this_listen"
+        android:orderInCategory="101"
+        android:title="Listen for read actions" />
+    <item 
+        android:id="@+id/action_release_listeners" 
+        android:orderInCategory="102" 
+        android:title="Release all listeners" />
+    <item
+        android:id="@+id/action_release_read"
+        android:orderInCategory="103"
+        android:title="Release this listener\nsingularly" />
+
+</menu>

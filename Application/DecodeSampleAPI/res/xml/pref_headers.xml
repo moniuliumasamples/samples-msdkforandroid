@@ -1,0 +1,20 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:key="@string/pref_header_general"
+        android:fragment="com.mupl.examples.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/pref_header_general" />
+    
+    <header
+        android:key="@string/pref_header_symbology"
+        android:fragment="com.mupl.examples.SettingsActivity$SymbologyPreferenceFragment"
+        android:title="@string/pref_header_symbology" />
+    
+    <header
+        android:key="@string/pref_header_set_all"
+        android:fragment="com.mupl.examples.SettingsActivity$SetAllPreferenceFragment"
+        android:title="@string/pref_header_set_all" />
+
+</preference-headers>

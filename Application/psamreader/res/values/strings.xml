@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PSAMReader</string>
+    <string name="press_twotime_quit">quit once again</string>
+    <string name="cmd_not_null">send can not be empty</string>
+    <string name="wireless_lock_open_serial_ort_fail">open uart fail</string>
+    <string name="wireless_send_successful">send success</string>
+    <string name="wireless_send_fail">get timeout</string>
+    <string name="send">send</string>
+    <string name="send_title">send bytes：</string>
+    <string name="recv_title">get bytes：</string>
+    <string name="poweron">poweron</string>
+    <string name="poweroff">poweroff</string>
+    <string name="random">random</string>
+    <string name="clear">clear</string>
+    <string name="debug">debug</string>
+</resources>

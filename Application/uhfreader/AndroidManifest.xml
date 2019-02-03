@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.moniuliuma.example.uhfreader"
+    android:versionCode="110"
+    android:versionName="1.1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="17" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<uses-permission android:name="android.permission.WRITE_PROFILE" />
+
+    <application
+        android:name="com.moniuliuma.example.uhfreader.MyApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/uhf_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+	<!--<uses-library android:name="com.moniuliuma.android.mupl"/> -->
+        <activity
+            android:name="com.moniuliuma.example.uhfreader.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       <activity android:name="com.moniuliuma.example.uhfreader.SettingActivity"  android:launchMode="singleTask" ></activity>
+        <activity android:name="com.moniuliuma.example.uhfreader.MoreHandleActivity"   android:launchMode="singleTask" />
+    	<activity android:name="com.moniuliuma.example.uhfreader.SettingPower"   android:launchMode="singleTask" />
+    	
+    </application>
+
+</manifest>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/style.css" rel="stylesheet" type="text/css"> 
+</head>
+
+<body>
+    <div id="main-content">
+
+        <div id="barcode-container">
+            <div id="bars-container" touchable>
+                <canvas id="barcode-canvas" width="600px" height="220px"></canvas>
+                <div id="loading"></div>
+                <div id="good-read"></div>
+            </div>
+
+            <!-- Bottom label with info -->
+            <p id="barcode-info" touchable>
+                <span></span>
+                <span style="font-family:serif;">&#183;</span>
+                <span></span>
+                <span style="font-family:serif;">&#183;</span>
+                <img src="imgs/clock.png" style="width:30px;margin-bottom:-5px;margin-right:-5px;"/>
+                <span></span>
+            </p>
+            <p id="barcode" touchable></p>
+        </div>
+        
+    </div>
+    
+    <!-- Scan button -->
+    <div id="scan-container">
+        <button id="scan" name="scan" touchable>Scan</button>
+    </div>
+
+    <!-- Left side bar for the settings menu -->
+    <div id="settings-pane">
+        <div id="settings-container"><table><tbody></tbody></table></div>
+        <button id="settings" touchable></button>
+    </div>
+    
+    <!-- Clean history button -->
+    <button id="clean-store" touchable></button>
+
+    <!-- Modal window -->
+    <div id="modal-container">
+        <div id="modal"></div>
+    </div>
+    
+    <!-- Last scanned barcodes -->
+    <ul id="store"></ul>
+    
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/mdroid.js"></script>
+    <script src="js/mdroid.Barcode.js"></script>
+    <script src="js/mdroid.BarcodeGenerator.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

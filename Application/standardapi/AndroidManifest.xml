@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.standardapi"
+    android:versionCode="1"
+    android:versionName="1.0" xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- the following permissions are only granted to system apps -->
+    <!-- permission needed to reset the terminal -->
+    <uses-permission android:name="android.permission.REBOOT" tools:ignore="ProtectedPermissions">
+    </uses-permission>
+    <!-- permission needed to suspend the terminal -->
+    <uses-permission android:name="android.permission.DEVICE_POWER" tools:ignore="ProtectedPermissions">
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" tools:ignore="ProtectedPermissions"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.standardapi.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.standardapi.SystemInfo"
+            android:label="system_info" />
+        <activity
+            android:name="com.example.standardapi.PowerActivity"
+            android:label="power" />
+        <activity
+            android:name=".BatteryActivity"
+            android:label="battery" />
+        <activity
+            android:name=".WifiActivity"
+            android:label="Wifi" />
+        <activity
+            android:name=".WindowActivity"
+            android:label="Window" />
+        <activity
+            android:name=".WirelessEnableActivity"
+            android:label="WirelessEnable" />
+        <!-- created by jpelletier at 2014-03-13 17:33:09 -->
+        <activity android:name=".SoundActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,1 @@
+include ':DecodeSampleAPI', ':DecodeListener', ':decodeintent', ':standardapi', ':Sdk-release', ':Fingerprint', ':uhfreader', ':psamreader', ':nfcreader', ':lednotification', ':barcodeweb'

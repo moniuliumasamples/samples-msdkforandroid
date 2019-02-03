@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">m安全卡</string>
+    
+ 	<string name="press_twotime_quit">再按一次退出</string>
+ 	<string name="cmd_not_null">发送内容不能为空</string>
+ 	<string name="wireless_lock_open_serial_ort_fail">打开串口失败</string>
+ 	<string name="wireless_send_successful">发送成功</string>
+ 	<string name="wireless_send_fail">接收超时</string>
+ 	<string name="send">发送</string>
+ 	<string name="send_title">发送内容：</string>
+ 	<string name="recv_title">接收内容：</string>
+ 	<string name="poweron">上电</string>
+ 	<string name="poweroff">下电</string>
+ 	<string name="random">随机</string>
+ 	<string name="clear">清空</string>
+ 	<string name="debug">调试</string>
+</resources>

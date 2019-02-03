@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Application.iml" filepath="$PROJECT_DIR$/Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DecodeListener/DecodeListener.iml" filepath="$PROJECT_DIR$/DecodeListener/DecodeListener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DecodeSampleAPI/DecodeSampleAPI.iml" filepath="$PROJECT_DIR$/DecodeSampleAPI/DecodeSampleAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fingerprint/Fingerprint.iml" filepath="$PROJECT_DIR$/Fingerprint/Fingerprint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sdk-release/Sdk-release.iml" filepath="$PROJECT_DIR$/Sdk-release/Sdk-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/barcodeweb/barcodeweb.iml" filepath="$PROJECT_DIR$/barcodeweb/barcodeweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/decodeintent/decodeintent.iml" filepath="$PROJECT_DIR$/decodeintent/decodeintent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lednotification/lednotification.iml" filepath="$PROJECT_DIR$/lednotification/lednotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nfcreader/nfcreader.iml" filepath="$PROJECT_DIR$/nfcreader/nfcreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/psamreader/psamreader.iml" filepath="$PROJECT_DIR$/psamreader/psamreader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/standardapi/standardapi.iml" filepath="$PROJECT_DIR$/standardapi/standardapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uhfreader/uhfreader.iml" filepath="$PROJECT_DIR$/uhfreader/uhfreader.iml" />
+    </modules>
+  </component>
+</project>
