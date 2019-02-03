@@ -11,7 +11,7 @@ git clone https://github.com/moniuliumasamples/samples-msdkforandroid.git
 ```
 
 - Open the project in [Android Studio][studio].
-- Compile and deploy to your moniuliuma Android device (such as a M188 model).
+- Compile and deploy to your moniuliuma Android device (such as a M180 model).
 
 Need more information about getting started with Moniuliuma Android device? Check the [official docs][getting-started].
 
