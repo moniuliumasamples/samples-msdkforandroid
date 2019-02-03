@@ -16,7 +16,11 @@ git clone https://github.com/moniuliumasamples/samples-msdkforandroid.git
 Need more information about getting started with Moniuliuma Android device? Check the [official docs][getting-started].
 
 ## Explore the repository
-
+- docs
+- SDK-library
+- Application
+  - DecodeListener (See UI Views in [screenshots][screenshots])
+  - uhfreader
 
 
 
